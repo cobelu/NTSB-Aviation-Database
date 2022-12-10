@@ -12,6 +12,13 @@ The NTSB decided to use MDB for some reason.
 * Mac: `brew install mdbtools`
 * Linux: `sudo apt-get install mdbtools`
 
+## Running
+
+```bash
+pip3 install -r requirements.txt
+python3 update_tables.py
+```
+
 ### Getting a list of tables
 
 `mdb-tables ~/Downloads/avall.mdb`
